@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="TravelinkExporter.exe" version="1.0.0.11" publicKeyToken="5551806380549fd8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TravelinkExporter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TravelinkExporter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TravelinkExporter.exe" size="45056">
+      <assemblyIdentity name="TravelinkExporter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7w9F91Bf5KAwUl0MpzXCEK/wAWo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TravelinkExporter.exe.config" size="1178">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ki8djTiYKDh41GBJI0lTwDR2ybc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EXODUS\rwilliams" issuerKeyHash="051f945cf6f9be5180f04d1123078fc9083d2177" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BfbqzvVM+/LWSNy51dwIAXtM9C0=</DigestValue></Reference></SignedInfo><SignatureValue>IqnrmFJQXIKKNIsuKf0YwG3wLuZkkEk2E+xvR7wCjIMVn8DAjON2sb/EYiZNOD/J7eZxSTad42C7jadfaCHcfRPBORz/rGY9LQaf8yJiF5YEs3a8i05RDnA1yWd/9ZTE91yIIgDbSz/nkb7HZmeIjTD3T5U2Af8yJ0DQ8B3pBvo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qK+vOpn6agXq0fclh008qPtPlCeFlDCKg09IQpUTo2/y+hcD9hGv2cUT3V1yOMsLXF3+HTFkx08DIMZDJqRETSNpI7OIyV6pTr+/6QR0bvsRBKelWny240OPHeMuxoP0RtwOy+9WP9CmG0iCqV29kmbk1CtOK0tj/BnmKYhkhVU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2df44c7b0108dcd5b9dc48d6f2fb4cf5ceeaf605" Description="" Url=""><as:assemblyIdentity name="TravelinkExporter.exe" version="1.0.0.11" publicKeyToken="5551806380549fd8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EXODUS\rwilliams</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LyZ6XeLo8ZQZVZ6b/VfBtj7em8c=</DigestValue></Reference></SignedInfo><SignatureValue>peXuJWVfb6ap403fGXhCJxUiVJfv6EPiqU2FSX0LhFg3ktdQe7s4DeK26j2Wnz/esxnOKMjKwpVt70Cd++OMOBfK4Kn7ZCuEqdQ7c7l6iWFud74bh0N28pMbmFtaOuzrDlO8j+0SkNTjBRn6gWcwAG7IQ6tch08c3eQ6XuUnZ20=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qK+vOpn6agXq0fclh008qPtPlCeFlDCKg09IQpUTo2/y+hcD9hGv2cUT3V1yOMsLXF3+HTFkx08DIMZDJqRETSNpI7OIyV6pTr+/6QR0bvsRBKelWny240OPHeMuxoP0RtwOy+9WP9CmG0iCqV29kmbk1CtOK0tj/BnmKYhkhVU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCAT6gAwIBAgIQzzDZkv0M/YdGF8dNvXP8UTAJBgUrDgMCHQUAMCsxKTAnBgNVBAMeIABFAFgATwBEAFUAUwBcAHIAdwBpAGwAbABpAGEAbQBzMB4XDTA4MTAzMTEwNTk0N1oXDTA5MTAzMTE2NTk0N1owKzEpMCcGA1UEAx4gAEUAWABPAEQAVQBTAFwAcgB3AGkAbABsAGkAYQBtAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKivrzqZ+moF6tH3JYdNPKj7T5QnhZQwioNPSEKVE6Nv8voXA/YRr9nFE91dcjjLC1xd/h0xZMdPAyDGQyakRE0jaSOziMleqU6/v+kEdG77EQSnpVp8tuNDjx3jLsaD9EbcDsvvVj/QphtIgqldvZJm5NQrTitLY/wZ5imIZIVVAgMBAAEwCQYFKw4DAh0FAAOBgQB7EX3njsz+xYEd5Z3iV5FNYlSemgtHWSkf6xIy2nSAG0Yxz1oUuWm6uRbBUjGE1oPYE9CIAjLVzJL46b4kGm+NDPtgVvVoZa3ZS4bRqVb6MjdNihe/hAUJ/NDv8w6tvSrJJW2cdfXzC9b+xTlNiWazeJa2X15gdWM4b7/JbajgqQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

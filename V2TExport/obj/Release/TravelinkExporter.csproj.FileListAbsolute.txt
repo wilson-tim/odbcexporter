@@ -1,0 +1,15 @@
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Release\ResolveAssemblyReference.cache
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Release\TravelinkExporter.Form2.resources
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Release\TravelinkExporter.Form1.resources
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Release\TravelinkExporter.Options.resources
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Release\TravelinkExporter.Properties.Resources.resources
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Release\TravelinkExporter.csproj.GenerateResource.Cache
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\bin\Release\TravelinkExporter.exe.config
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\bin\Release\TravelinkExporter.exe
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\bin\Release\TravelinkExporter.pdb
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\bin\Release\System.Data.dll
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Release\TravelinkExporter.exe
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Release\TravelinkExporter.pdb
+I:\MI\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\bin\Release\TravelinkExporter.exe.config
+I:\MI\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Release\TravelinkExporter.exe
+I:\MI\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Release\TravelinkExporter.pdb

@@ -1,0 +1,7 @@
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\bin\Debug\TravelinkExporter.exe.config
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Debug\ResolveAssemblyReference.cache
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Debug\TravelinkExporter.Form2.resources
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Debug\TravelinkExporter.Form1.resources
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Debug\TravelinkExporter.Options.resources
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Debug\TravelinkExporter.Properties.Resources.resources
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\obj\Debug\TravelinkExporter.csproj.GenerateResource.Cache

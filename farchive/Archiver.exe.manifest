@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Archiver.exe" version="1.0.0.10" publicKeyToken="920f5dc7aa97386e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Archiver" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Archiver.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Archiver.exe" size="36864">
+      <assemblyIdentity name="Archiver" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>NbW15TTVsNeV3ZPvlHOysUsfshc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ICSharpCode.SharpZipLib.dll" size="192512">
+      <assemblyIdentity name="ICSharpCode.SharpZipLib" version="0.85.5.452" publicKeyToken="1B03E6ACF1164F73" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1pnltGoU6k18BS5Bk/hfCk8rKes=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Archiver.exe.config" size="1023">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nB/sOKVASxJtOgSPMH+S+T0AzC0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EXODUS\rwilliams" issuerKeyHash="742499332b838ee51c78c77cd2b98865003c7d75" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>hR5P6QzVYXtrQ9W08lo5i7d5Bzo=</DigestValue></Reference></SignedInfo><SignatureValue>ARkwGRZ4eM2P7p3eAjkCXplDi+yQThdrcQXC6m4dH7NFx83YgvKYe+Glvy0HVny3KD1vicexdTLqclZQQYvkd5SEZnstfevQyn5Im3p3bDD9XHklGUCpaqIn70q0Lh9nDmSN2kJhYaMgE7gKkDN7ppu8w52lstnd03YJ3G4RYq0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wD98yhRSxkBNm7TDC2YcXRQ92eOS+svCna5fNsVEDgxPzCbGZSZ8zELHnQvJwVjcKLwpes68Wp5pF1ZVlrGu36DscKz/ZOsrWeuUwG7zh85TLAE2VDUdcmKosFUOwRKTJj+1LuyRcnEKRUQ/y+OpwDicjChiF45nF3AgJI9Qphs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3a0779b78b395af2b4d5436b7b61d50ce94f1e85" Description="" Url=""><as:assemblyIdentity name="Archiver.exe" version="1.0.0.10" publicKeyToken="920f5dc7aa97386e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EXODUS\rwilliams</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>h1iY62SlgPHDrKPWTaKOhfVX3O4=</DigestValue></Reference></SignedInfo><SignatureValue>hmABaa4995OQESmLzgdnXajA7GrIPxJ/Aq3CXJ7vnLvI9PsIpbGSPnT/amJyK3r1KTF5Xk+mbPA00rtoqcprkho/Vqtgkpip2jqUjJQeBX7JxTo1tWMcwBAelvPuvdc2TW/exXSBEIFPY7ufXksyaM/CVKt0nHYo/mE1NlfyWmE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wD98yhRSxkBNm7TDC2YcXRQ92eOS+svCna5fNsVEDgxPzCbGZSZ8zELHnQvJwVjcKLwpes68Wp5pF1ZVlrGu36DscKz/ZOsrWeuUwG7zh85TLAE2VDUdcmKosFUOwRKTJj+1LuyRcnEKRUQ/y+OpwDicjChiF45nF3AgJI9Qphs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCAT6gAwIBAgIQayC50sy/7atHA+dGBf/aEzAJBgUrDgMCHQUAMCsxKTAnBgNVBAMeIABFAFgATwBEAFUAUwBcAHIAdwBpAGwAbABpAGEAbQBzMB4XDTA4MTEwODIzNTc0M1oXDTA5MTEwOTA1NTc0M1owKzEpMCcGA1UEAx4gAEUAWABPAEQAVQBTAFwAcgB3AGkAbABsAGkAYQBtAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMA/fMoUUsZATZu0wwtmHF0UPdnjkvrLwp2uXzbFRA4MT8wmxmUmfMxCx50LycFY3Ci8KXrOvFqeaRdWVZaxrt+g7HCs/2TrK1nrlMBu84fOUywBNlQ1HXJiqLBVDsESkyY/tS7skXJxCkVEP8vjqcA4nIwoYheOZxdwICSPUKYbAgMBAAEwCQYFKw4DAh0FAAOBgQCXvtq6dMuITmQ867ziNtOA8siIGWMNRw3vv02ctP98MYbKU7OyGR34Kn8hQYsQkSO3OKlq67s+mUxKEkhDKkD62aRbqJaFgd2w6MU+JvSSGjR1O9REaH+VWKgVfngovjvTiY8u/1BKfaDm1NmbdXejgnKSZLvOeX3ofm9qSuPqtA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

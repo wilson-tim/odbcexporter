@@ -1,0 +1,1 @@
+Q:\Data Warehouse\SQLSERVER_Extract_Prog\V2TExport Test\bin\Debug\TravelinkExporter.exe.config
