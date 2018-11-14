@@ -1,0 +1,15 @@
+open 10.80.224.11
+oraclestr
+oraclestr
+cd data/reports/TailorMade
+cd /SECTOR/archive/TailorMade/Data
+lcd G:\DWExtracts\CMS\Archive
+binary
+delete export.log
+delete FTP_Date.txt
+quote pasv
+mput *.gz
+put G:\DWExtracts\CMS\Log\export.log
+put FTP_Date.txt
+close
+bye

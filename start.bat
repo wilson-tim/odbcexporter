@@ -1,0 +1,1 @@
+G:\DWExtracts\CMS\exportandarchive.vbs autostart

@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace TravelinkExporter
+namespace OdbcExporter
 {
 	internal static class Program
 	{

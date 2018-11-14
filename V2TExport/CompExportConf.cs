@@ -3,7 +3,7 @@ using System.Collections;
 using System.IO;
 using System.Xml;
 
-namespace TravelinkExporter
+namespace OdbcExporter
 {
 	internal class CompExportConf
 	{

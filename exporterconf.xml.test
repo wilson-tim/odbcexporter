@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- A simple piece of xml to control the export behaviours of the ODBC exporter prog -->
+
+<configuration>
+
+     <company name="CMS" connectionstring="dsn=SHG CMS" >
+            <Export tableview="dagent" exportname="Agent2" required="true" Sqlcommand="SELECT  * , TODAY run_date from root.dagent where row_date = today - 1" />
+   </company>    
+  
+    <company name="SQL" connectionstring="Driver={SQL Server};Server=V-AWD-SQL-11;Database=TM_SCV_Celerity_Stage;User ID=BOXI_DEV;Password=qspHKedyJFi9lmaYa1cL;">
+           <Export tableview="SL_Country" exportname="SL_Country" required="true" Sqlcommand="SELECT [CountryID] ,[Country]  FROM dbo.SL_Country" />
+   </company>  
+  
+    <company name="ORA" connectionstring="dsn=DWLS.UNICORN;Pwd=tyranny;">
+           <Export tableview="TL_S_AGENCY" exportname="TL_S_AGENCY" required="true" Sqlcommand="SELECT *  FROM TLINK.TL_S_AGENCY" />
+   </company>
+  
+</configuration>

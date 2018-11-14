@@ -1,11 +1,12 @@
 using System;
 using System.ComponentModel;
 using System.Data.Common;
-using System.Data.SqlClient;
+using System.Data.Odbc;
 using System.IO;
 using System.Text;
+using System.Windows.Forms;
 
-namespace TravelinkExporter
+namespace OdbcExporter
 {
 	internal class DataWriter2
 	{
@@ -21,7 +22,7 @@ namespace TravelinkExporter
 
 		private Form1 theparent;
 
-		private SqlConnection conn;
+		private OdbcConnection conn;
 
 		private string Error;
 
@@ -57,10 +58,18 @@ namespace TravelinkExporter
 			bool flag;
 			try
 			{
-				this.conn = new SqlConnection(this.connectstring);
-				this.conn.Open();
-				flag = true;
+                this.conn = new OdbcConnection(this.connectstring);
+                this.conn.Open();
+                flag = true;
 			}
+            catch (OdbcException exception2)
+            {
+                Exception exception = exception2;
+                this.SimpleError = "OdbcError";
+                this.Error = exception.Message;
+                MessageBox.Show(exception.Message);
+                flag = false;
+            }
 			catch (Exception exception1)
 			{
 				Exception exception = exception1;
@@ -76,14 +85,15 @@ namespace TravelinkExporter
 			bool flag;
 			try
 			{
-				string str = string.Concat("SELECT COUNT(*) from ", this.TableName);
-				System.Data.SqlClient.SqlCommand sqlCommand = new System.Data.SqlClient.SqlCommand(str, this.conn);
-				SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+                string str = string.Concat("SELECT COUNT(*) from ", this.TableName);
+				System.Data.Odbc.OdbcCommand sqlCommand = new System.Data.Odbc.OdbcCommand(str, this.conn);
+				OdbcDataReader sqlDataReader = sqlCommand.ExecuteReader();
 				sqlDataReader.Read();
 				int num = Convert.ToInt32(sqlDataReader[0].ToString());
 				string str1 = sqlDataReader[0].ToString();
 				sqlDataReader.Close();
-				if (!(this.SqlCommand != ""))
+
+                if (!(this.SqlCommand != ""))
 				{
 					sqlCommand.CommandText = string.Concat("SELECT * from ", this.TableName);
 				}
@@ -128,11 +138,11 @@ namespace TravelinkExporter
 				sqlDataReader.Dispose();
 				flag = true;
 			}
-			catch (SqlException sqlException1)
+			catch (OdbcException odbcException1)
 			{
-				SqlException sqlException = sqlException1;
-				this.SimpleError = "SqlError";
-				this.Error = sqlException.Message;
+				OdbcException odbcException = odbcException1;
+				this.SimpleError = "OdbcError";
+				this.Error = odbcException.Message;
 				flag = false;
 			}
 			catch (IOException oException1)
@@ -167,11 +177,11 @@ namespace TravelinkExporter
 			return ((this.TableName == null || this.SqlCommand == null ? true : this.filename == null) ? false : true);
 		}
 
-		public void setExportDetails(string tableName, string SqlCommand, string fname)
+		public void setExportDetails(string tableName, string SqlCommand, string filename)
 		{
 			this.TableName = tableName;
 			this.SqlCommand = SqlCommand;
-			this.filename = fname;
+			this.filename = filename;
 		}
 
 		public void updateDisplay(decimal counter, int max, string rownum)

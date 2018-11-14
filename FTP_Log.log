@@ -1,0 +1,52 @@
+ftp> open 10.80.224.11
+Connected to 10.80.224.11.
+220 (vsFTPd 2.0.5)
+User (10.80.224.11:(none)): 
+331 Please specify the password.
+
+230 Login successful.
+ftp> cd data/reports/TailorMade
+250 Directory successfully changed.
+ftp> cd /SECTOR/archive/TailorMade/Data
+250 Directory successfully changed.
+ftp> lcd G:\DWExtracts\CMS\Archive
+Local directory now G:\DWExtracts\CMS\Archive.
+ftp> binary
+200 Switching to Binary mode.
+ftp> delete export.log
+550 Delete operation failed.
+ftp> delete FTP_Date.txt
+250 Delete operation successful.
+ftp> quote pasv
+227 Entering Passive Mode (10,80,224,11,196,91)
+ftp> mput *.gz
+200 PORT command successful. Consider using PASV.
+150 Ok to send data.
+226 File receive OK.
+ftp: 62332 bytes sent in 0.05Seconds 1326.21Kbytes/sec.
+200 PORT command successful. Consider using PASV.
+150 Ok to send data.
+226 File receive OK.
+ftp: 37933 bytes sent in 0.03Seconds 1223.65Kbytes/sec.
+200 PORT command successful. Consider using PASV.
+150 Ok to send data.
+226 File receive OK.
+ftp: 20943 bytes sent in 0.05Seconds 445.60Kbytes/sec.
+200 PORT command successful. Consider using PASV.
+150 Ok to send data.
+226 File receive OK.
+ftp: 11918 bytes sent in 0.03Seconds 384.45Kbytes/sec.
+200 PORT command successful. Consider using PASV.
+150 Ok to send data.
+226 File receive OK.
+ftp: 1569003 bytes sent in 0.14Seconds 11207.16Kbytes/sec.
+ftp> put G:\DWExtracts\CMS\Log\export.log
+G:\DWExtracts\CMS\Log\export.log: File not found 
+ftp> put FTP_Date.txt
+200 PORT command successful. Consider using PASV.
+150 Ok to send data.
+226 File receive OK.
+ftp: 9 bytes sent in 0.01Seconds 0.60Kbytes/sec.
+ftp> close
+221 Goodbye.
+ftp> bye
